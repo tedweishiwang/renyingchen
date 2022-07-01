@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  margin-top: -250px;
+  min-height: 80vh;
+}
+
+menu {
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  height: 10px;
+}
+
+headertitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+headertitlelarge {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+bookdesigntext {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+rectangle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #ffcd33;
+}
+
+pinkRectangle {
+  display: inline-block;
+  width: 85%;
+  margin-right: -200px;
+  height: 800px;
+  background: rgb(236 165 165);
+}
+
+column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+largeText {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+largeTextLight {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  color: black;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+a:hover { color:black; }
