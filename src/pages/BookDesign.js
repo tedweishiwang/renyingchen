@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-import { Nav, Container, Navbar, NavDropdown, CardGroup, Card, Row, Col, Button } from "react-bootstrap";
+import { Nav, Container, Navbar, NavDropdown, CardGroup, Card, Row, Col, Button, Image } from "react-bootstrap";
 import bookdesign from '../asset/bookdesign.png';
 
 const BookDesign = () => {
@@ -19,7 +19,7 @@ const BookDesign = () => {
 
       <Row style={{marginTop: "20px" }} className="justify-content-md-center">
         <Col style={{marginTop: "50px" }}>
-        <img src={bookdesign} width={380} height={530}  />
+        <Image src={bookdesign} style={{minWidth: "300px", width: "80%"}}/>
         </Col>
         <Col style={{marginTop: "50px" }}>
           <contentSubtitle >
