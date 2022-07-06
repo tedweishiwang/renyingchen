@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import BookDesign from "./pages/BookDesign";
+import Vr from "./pages/Vr";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/work" element={<Work />} exact/>
           <Route path="/about" element={<About />} exact/>
           <Route path="/bookdesign" element={<BookDesign />} exact/>
+          <Route path="/vr" element={<Vr />} exact/>
           <Route element={<NotFound />} />
         </Routes>
       </Container>

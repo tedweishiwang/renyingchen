@@ -68,7 +68,7 @@ largeText {
 
 text {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: black;
 }
@@ -114,8 +114,15 @@ contentSubsubsubtitle {
   color: black;
 }
 
+contentSubsubsubtitlebold {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
 quoteText {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: grey;
 }

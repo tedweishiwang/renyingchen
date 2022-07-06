@@ -2,6 +2,7 @@ import { Nav, Container, Navbar, NavDropdown, CardGroup, Card } from "react-boot
 import bookdesign from '../asset/bookdesign.png';
 import webdesign from '../asset/webdesign.png';
 import poster from '../asset/poster.png';
+import vr from '../asset/vr.png';
 
 const Work = () => {
   // page content
@@ -21,6 +22,19 @@ const Work = () => {
       <line/>
       <Container>
         <CardGroup>
+
+        <Card border="white" style={{margin: "30px", maxWidth: "300px"}}>
+          <Card.Link href="/vr">
+            <Card.Img style={{height: "400px", maxWidth: "300px"}} variant="top" src={vr} />
+          </Card.Link>
+          <Card.Body>
+            <Card.Title>Immediate Rapid Deployment VR training and simulation</Card.Title>
+            <Card.Text>
+              IRD VR training and simulation
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
           <Card border="white" style={{margin: "30px", maxWidth: "300px"}}>
             <Card.Link href="/bookdesign">
               <Card.Img style={{height: "400px", maxWidth: "300px"}} variant="top" src={bookdesign} />
@@ -32,6 +46,7 @@ const Work = () => {
               </Card.Text>
             </Card.Body>
           </Card>
+
           <Card border="white" style={{margin: "30px", maxWidth: "300px"}}>
             <Card.Img style={{height: "400px", maxWidth: "300px"}} variant="top" src={webdesign} />
             <Card.Body>
@@ -42,17 +57,7 @@ const Work = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="white" style={{margin: "30px"}}>
-            <Card.Img variant="top" src={bookdesign} />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+
         </CardGroup>
       </Container>
     </Container>
