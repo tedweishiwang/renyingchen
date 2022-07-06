@@ -33,7 +33,7 @@ const Work = () => {
             </Card.Body>
           </Card>
           <Card border="white" style={{margin: "30px"}}>
-            <Card.Img style={{height: "250px"}} variant="top" src={webdesign} />
+            <Card.Img style={{height: "300px"}} variant="top" src={webdesign} />
             <Card.Body>
               <Card.Title>Web Design</Card.Title>
               <Card.Text>

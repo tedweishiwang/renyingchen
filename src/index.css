@@ -69,6 +69,7 @@ largeText {
 text {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
+  font-weight: 500;
   color: black;
 }
 
@@ -87,3 +88,34 @@ a {
 }
 
 a:hover { color:black; }
+
+contentTitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+contentSubtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: black;
+}
+
+contentSubsubtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: black;
+}
+
+contentSubsubsubtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+quoteText {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: grey;
+}
