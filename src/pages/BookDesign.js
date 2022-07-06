@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import { Nav, Container, Navbar, NavDropdown, CardGroup, Card, Row, Col, Button, Image } from "react-bootstrap";
 import bookdesign from '../asset/bookdesign.png';
+import poster from '../asset/posterlarge.png';
 
 const BookDesign = () => {
   // page content
@@ -8,7 +9,7 @@ const BookDesign = () => {
   const pageDescription = 'welcome to react bootstrap template'
 
   return (
-    <Container style={{width: "80%"}}>
+    <Container style={{width: "75%"}}>
       <Row style={{marginTop: "100px"}} className="justify-content-md-center">
         <Col md="auto">
           <contentTitle>
@@ -19,7 +20,7 @@ const BookDesign = () => {
 
       <Row style={{marginTop: "20px" }} className="justify-content-md-center">
         <Col style={{marginTop: "50px" }}>
-        <Image src={bookdesign} style={{minWidth: "300px", width: "80%"}}/>
+          <Image src={bookdesign} style={{minWidth: "300px", width: "80%"}}/>
         </Col>
         <Col style={{marginTop: "50px" }}>
           <contentSubtitle >
@@ -62,6 +63,30 @@ The secondary element in my design is the typical Bauhaus colors. I combine thos
         </Col>
       </Row>
 
+      <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <Image src={poster} style={{width: "100%"}}/>
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "20px" }}>
+        <contentSubtitle >
+          Poster Design
+        </contentSubtitle>
+        </Col>
+        <Col style={{marginTop: "20px" }}>
+        <text >
+        Typography Poster Design
+        <br/>
+        Created by Photoshop, InDesign
+        </text>
+        </Col>
+      </Row>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </Container>
   )
 }
