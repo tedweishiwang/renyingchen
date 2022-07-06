@@ -10,7 +10,7 @@ const Work = () => {
 
   return (
     <Container>
-      <Container style={{maxWidth:"50%", marginTop: "10%", marginLeft: "10%"}}>
+      <Container style={{marginTop: "30px", marginLeft: "30px"}}>
         <largeText>PORTFOLIO</largeText>
         <br/>
         <text>
@@ -21,9 +21,9 @@ const Work = () => {
       <line/>
       <Container>
         <CardGroup>
-          <Card border="white" style={{margin: "50px"}}>
+          <Card border="white" style={{margin: "30px"}}>
             <Card.Link href="/bookdesign">
-              <Card.Img style={{height: "250px"}} variant="top" src={bookdesign} />
+              <Card.Img style={{height: "300px"}} variant="top" src={bookdesign} />
             </Card.Link>
             <Card.Body>
               <Card.Title>Book Design</Card.Title>
@@ -32,7 +32,7 @@ const Work = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="white" style={{margin: "50px"}}>
+          <Card border="white" style={{margin: "30px"}}>
             <Card.Img style={{height: "250px"}} variant="top" src={webdesign} />
             <Card.Body>
               <Card.Title>Web Design</Card.Title>
@@ -42,7 +42,7 @@ const Work = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="white" style={{margin: "50px"}}>
+          <Card border="white" style={{margin: "30px"}}>
             <Card.Img variant="top" src={bookdesign} />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
