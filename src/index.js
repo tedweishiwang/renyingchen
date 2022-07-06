@@ -10,7 +10,7 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <App style={{width: "50%"}} />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

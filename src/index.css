@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
 body {
-  font-family: 'Comfortaa', cursive;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-  margin-top: -250px;
   min-height: 80vh;
 }
 
@@ -35,6 +33,13 @@ bookdesigntext {
   font-size: 15px;
 }
 
+line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: black;
+}
+
 rectangle {
   display: inline-block;
   width: 20px;
@@ -44,8 +49,7 @@ rectangle {
 
 pinkRectangle {
   display: inline-block;
-  width: 85%;
-  margin-right: -200px;
+  width: 100%;
   height: 800px;
   background: rgb(236 165 165);
 }
@@ -58,8 +62,13 @@ column {
 
 largeText {
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
   font-size: 30px;
+  color: black;
+}
+
+text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   color: black;
 }
 

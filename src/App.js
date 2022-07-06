@@ -7,6 +7,7 @@ import Layout from "./layout/Layout";
 // pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/home" element={<Home />} exact />
           <Route path="/about" element={<About />} exact/>
           <Route path="/resume" element={<About />} exact/>
-          <Route path="/about" element={<About />} exact/>
+          <Route path="/work" element={<Work />} exact/>
           <Route path="/about" element={<About />} exact/>
           <Route element={<NotFound />} />
         </Routes>

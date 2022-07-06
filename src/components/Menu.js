@@ -3,20 +3,26 @@ import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
 import React, { useState } from "react";
 
 const Menu = () => {
+  const activeKey = window.location.pathname;
+
   return (
-    <Navbar style={{marginLeft: "80%", marginTop: "24px"}}  sticky="top" expand="lg">
-      <Container>
-        <Nav defaultActiveKey={window.location.pathname}
-        className="flex-column">
-          <Nav.Link href="/home"><menu>Home</menu></Nav.Link>
-          <Nav.Link href="/processing"><menu>Resume</menu></Nav.Link>
-          <Nav.Link href="/uiux"><menu>UIUX</menu></Nav.Link>
-          <Nav.Link href="/motiongraphics"><menu>Motion Graphics</menu></Nav.Link>
-          <Nav.Link href="/typography"><menu>Typography Design</menu></Nav.Link>
-          <Nav.Link href="/about"><menu>About Me</menu></Nav.Link>
-        </Nav>
-      </Container>
-    </Navbar>
+    <Container>
+      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom">
+        <Navbar.Brand href="/">Renee Chen</Navbar.Brand>
+        <Navbar expand="lg">
+          <Container>
+          <Navbar.Toggle aria-controls="basic-navbar-naeev" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav defaultActiveKey={activeKey}>
+              <Nav.Link href="/work"><menu>Work</menu></Nav.Link>
+              <Nav.Link href="/resume"><menu>Resume</menu></Nav.Link>
+              <Nav.Link href="/about"><menu>About Me</menu></Nav.Link>
+            </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+      </header>
+    </Container>
   );
 };
 
