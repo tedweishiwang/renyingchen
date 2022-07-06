@@ -21,9 +21,9 @@ const Work = () => {
       <line/>
       <Container>
         <CardGroup>
-          <Card border="white" style={{margin: "30px"}}>
+          <Card border="white" style={{margin: "30px", maxWidth: "300px"}}>
             <Card.Link href="/bookdesign">
-              <Card.Img style={{height: "300px"}} variant="top" src={bookdesign} />
+              <Card.Img style={{height: "400px", maxWidth: "300px"}} variant="top" src={bookdesign} />
             </Card.Link>
             <Card.Body>
               <Card.Title>Book Design</Card.Title>
@@ -32,8 +32,8 @@ const Work = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card border="white" style={{margin: "30px"}}>
-            <Card.Img style={{height: "300px"}} variant="top" src={webdesign} />
+          <Card border="white" style={{margin: "30px", maxWidth: "300px"}}>
+            <Card.Img style={{height: "400px", maxWidth: "300px"}} variant="top" src={webdesign} />
             <Card.Body>
               <Card.Title>Web Design</Card.Title>
               <Card.Text>

@@ -9,7 +9,7 @@ const BookDesign = () => {
   const pageDescription = 'welcome to react bootstrap template'
 
   return (
-    <Container style={{width: "75%"}}>
+    <Container>
       <Row style={{marginTop: "100px"}} className="justify-content-md-center">
         <Col md="auto">
           <contentTitle>
@@ -20,7 +20,7 @@ const BookDesign = () => {
 
       <Row style={{marginTop: "20px" }} className="justify-content-md-center">
         <Col style={{marginTop: "50px" }}>
-          <Image src={bookdesign} style={{minWidth: "300px", width: "80%"}}/>
+          <Image src={bookdesign} style={{minWidth: "300px", width: "90%"}}/>
         </Col>
         <Col style={{marginTop: "50px" }}>
           <contentSubtitle >
@@ -58,12 +58,12 @@ The secondary element in my design is the typical Bauhaus colors. I combine thos
 
           <br/>
           <br/>
-
+          <br/>
           <Button variant="outline-warning"  href="https://issuu.com/renyingchen/docs/moholy-nagy____">Read the book</Button>
         </Col>
       </Row>
 
-      <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
         <Col style={{marginTop: "50px" }}>
           <Image src={poster} style={{width: "100%"}}/>
         </Col>
