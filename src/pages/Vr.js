@@ -995,10 +995,10 @@ It has a practice scenario to orient police recruits to the parameters of moveme
               <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_7} alt="slide 7" />
             </CCarouselItem>
             <CCarouselItem>
-              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_9} alt="slide 7" />
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_9} alt="slide 8" />
             </CCarouselItem>
             <CCarouselItem>
-              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_10} alt="slide 7" />
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_10} alt="slide 9" />
             </CCarouselItem>
           </CCarousel>
         </Col>
