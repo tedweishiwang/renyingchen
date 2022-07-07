@@ -1,67 +1,82 @@
-import { Nav, Container, Navbar, NavDropdown, CardGroup, Card } from "react-bootstrap";
+import { Nav, Container, Navbar, NavDropdown, CardGroup, Card, Button, Row, Col } from "react-bootstrap";
 import bookdesign from '../asset/bookdesign.png';
 import webdesign from '../asset/webdesign.png';
 import poster from '../asset/poster.png';
-import vr from '../asset/vr.png';
+import vr from '../asset/cover.png';
+import logo from '../asset/logo.png';
+import { CCard, CRow, CCol, CCardImage, CCardBody, CCardTitle, CCardText, CContainer } from '@coreui/react'
 
-const Portfolio = () => {
+const Work = () => {
   // page content
-  const pageTitle = 'Portfolio'
+  const pageTitle = 'Work'
   const pageDescription = 'welcome to react bootstrap template'
 
   return (
     <Container>
-      <Container style={{marginTop: "30px", marginLeft: "30px"}}>
-        <largeText>PORTFOLIO</largeText>
-        <br/>
+    <Container>
+    <br/>
+    <largeText>UIUX</largeText>
+    <br/>
+    <largeText>VISUAL DESIGNER</largeText>
+    </Container>
+      <Container style={{marginTop: "30px", marginLeft: "50"}}>
+      <p class="text-center">
+        <img src={logo} width={120} height={120} />
+      </p>
+      <p class="text-center"><largeText style={{color: "#E3784C"}}>PORTFOLIO</largeText></p>
+      <p class="text-center">
         <text>
-        Features and genuine cases that I work as a product manager and designer to drive user-centric strategies and solutions for real-world problems. Including Ecommerce, productivity tool and interactive media.
+        REGONITIONS & ACCOMPLISHMENTS
         </text>
+      </p>
       </Container>
       <br/>
-      <line/>
+      <br/>
+      <br/>
+      <br/>
       <Container>
-        <CardGroup>
 
-        <Card border="white" style={{margin: "50px", maxWidth: "300px"}}>
-          <Card.Link href="/vr">
-            <Card.Img style={{height: "350px", maxWidth: "300px"}} variant="top" src={vr} />
-          </Card.Link>
-          <Card.Body>
-            <Card.Title>Immediate Rapid Deployment VR training and simulation</Card.Title>
-            <Card.Text>
-              IRD VR training and simulation
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-          <Card border="white" style={{margin: "50px", maxWidth: "300px"}}>
-            <Card.Link href="/bookdesign">
-              <Card.Img style={{height: "350px", maxWidth: "300px"}} variant="top" src={bookdesign} />
+      <Container>
+        <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+          <Col>
+            <Card.Link href="/vr">
+              <Card.Img style={{height: "200px", maxWidth: "400px", minWidth: "350px"}} src={vr} />
             </Card.Link>
-            <Card.Body>
-              <Card.Title>Book Design</Card.Title>
-              <Card.Text>
-                <text>This is an individual book design project for the intermediate typography class in SAIC.</text>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          </Col>
+          <Col>
+            <largeText style={{color: "#E3784C"}}>Immediate Rapid Deployment VR training and simulation</largeText>
+            <br/>
+            <br/>
+            <text>IRD VR training and simulation</text>
+            <br/>
+            <br/>
+            <Button style={{color: "#E3784C"}} variant="link"  href="/vr">Read More</Button>
+          </Col>
+        </Row>
+      </Container>
 
-          <Card border="white" style={{margin: "50px", maxWidth: "300px"}}>
-            <Card.Img style={{height: "350px", maxWidth: "300px"}} variant="top" src={webdesign} />
-            <Card.Body>
-              <Card.Title>Web Design</Card.Title>
-              <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-                content.{' '}
-              </Card.Text>
-            </Card.Body>
-          </Card>
+      <Container style={{marginTop: "100px"}}>
+        <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+        <Col>
+          <largeText style={{color: "#E3784C"}}>Book Design</largeText>
+          <br/>
+          <br/>
+          <text>This is an individual book design project for the intermediate typography class in SAIC</text>
+          <br/>
+          <br/>
+          <Button style={{color: "#E3784C"}} variant="link"  href="/bookdesign">Read More</Button>
+        </Col>
+          <Col align="left">
+            <Card.Link href="/bookdesign">
+              <Card.Img style={{height: "300px", maxWidth: "300px", minWidth: "250px"}} src={bookdesign} />
+            </Card.Link>
+          </Col>
+        </Row>
+      </Container>
 
-        </CardGroup>
       </Container>
     </Container>
   )
 }
 
-export default Portfolio
+export default Work

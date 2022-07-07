@@ -14,7 +14,7 @@ import Vr from "./pages/Vr";
 
 const App = () => {
   return (
-    <Layout>
+    <Layout class="container-fluid">
       <Container>
         <Routes>
           <Route path="/" element={<Work />} exact />
