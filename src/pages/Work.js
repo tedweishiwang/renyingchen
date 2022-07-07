@@ -13,12 +13,13 @@ const Work = () => {
 
   return (
     <Container>
-    <Container>
-    <br/>
-    <largeText>UIUX</largeText>
-    <br/>
-    <largeText>VISUAL DESIGNER</largeText>
-    </Container>
+      <Container>
+      <br/>
+      <largeText>UIUX</largeText>
+      <br/>
+      <largeText>VISUAL DESIGNER</largeText>
+      </Container>
+
       <Container style={{marginTop: "30px", marginLeft: "50"}}>
       <p class="text-center">
         <img src={logo} width={120} height={120} />
@@ -57,7 +58,7 @@ const Work = () => {
 
       <Container style={{marginTop: "100px"}}>
         <Row style={{marginTop: "20px" }} className="justify-content-md-center">
-        <Col>
+        <Col style={{maxWidth: "40%" }}>
           <largeText style={{color: "#E3784C"}}>Book Design</largeText>
           <br/>
           <br/>
@@ -68,8 +69,27 @@ const Work = () => {
         </Col>
           <Col align="left">
             <Card.Link href="/bookdesign">
-              <Card.Img style={{height: "300px", maxWidth: "300px", minWidth: "250px"}} src={bookdesign} />
+              <Card.Img style={{height: "300px", maxWidth: "300px", minWidth: "200px"}} src={bookdesign} />
             </Card.Link>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container style={{marginTop: "100px"}}>
+        <Row style={{marginTop: "20px" }} className="justify-content-md-center">
+          <Col>
+            <Card.Link href="/homee">
+              <Card.Img style={{height: "200px", maxWidth: "400px", minWidth: "350px"}} src={vr} />
+            </Card.Link>
+          </Col>
+          <Col>
+            <largeText style={{color: "#E3784C"}}>Home E</largeText>
+            <br/>
+            <br/>
+            <text>IRD VR training and simulation</text>
+            <br/>
+            <br/>
+            <Button style={{color: "#E3784C"}} variant="link"  href="/homee">Read More</Button>
           </Col>
         </Row>
       </Container>

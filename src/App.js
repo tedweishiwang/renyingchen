@@ -11,10 +11,11 @@ import Work from "./pages/Work";
 import NotFound from "./pages/NotFound";
 import BookDesign from "./pages/BookDesign";
 import Vr from "./pages/Vr";
+import Homee from "./pages/Homee";
 
 const App = () => {
   return (
-    <Layout class="container-fluid">
+    <Layout>
       <Container>
         <Routes>
           <Route path="/" element={<Work />} exact />
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/about" element={<About />} exact/>
           <Route path="/bookdesign" element={<BookDesign />} exact/>
           <Route path="/vr" element={<Vr />} exact/>
+          <Route path="/homee" element={<Homee />} exact/>
           <Route element={<NotFound />} />
         </Routes>
       </Container>
