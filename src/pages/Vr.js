@@ -51,7 +51,7 @@ import userquestionaire2_10 from '../asset/vr/userquestionaire2/10.png'
 import userquestionaire2_11 from '../asset/vr/userquestionaire2/11.png'
 import userquestionaire2_12 from '../asset/vr/userquestionaire2/12.png'
 
-import userreport1 from '../asset/vr/userreport1/1.jpeg'
+import userreport1 from '../asset/vr/userreport1/1.png'
 import userreport2 from '../asset/vr/userreport1/2.jpeg'
 import userreport3 from '../asset/vr/userreport1/3.jpeg'
 import userreport4 from '../asset/vr/userreport1/4.jpeg'
