@@ -3,6 +3,7 @@ import { Nav, Container, Navbar, NavDropdown, CardGroup, Card, Row, Col, Button,
 import bookdesign from '../asset/bookdesign.png';
 import poster from '../asset/posterlarge.png';
 
+
 const BookDesign = () => {
   // page content
   const pageTitle = 'About'

@@ -5,6 +5,86 @@ import poster from '../asset/posterlarge.png';
 import persona from '../asset/vr/persona.png';
 import scenarioresearch1 from '../asset/vr/scenarioresearch1.png';
 import scenarioresearch2 from '../asset/vr/scenarioresearch2.png';
+import nonlinear from '../asset/vr/nonlinear.jpg';
+import plotdesign1 from '../asset/vr/plotdesign/1.png';
+import plotdesign2 from '../asset/vr/plotdesign/2.png';
+import plotdesign3 from '../asset/vr/plotdesign/3.png';
+import plotdesign4 from '../asset/vr/plotdesign/4.png';
+import plotdesign5 from '../asset/vr/plotdesign/5.png';
+import plotdesign6 from '../asset/vr/plotdesign/6.png';
+import plotdesign7 from '../asset/vr/plotdesign/7.png';
+import plotdesign from '../asset/vr/plotdesign.jpg';
+import userflow1 from '../asset/vr/userflow1.png';
+import userflow2 from '../asset/vr/userflow2.png';
+import wireframe1 from '../asset/vr/wireframe1.png';
+import wireframe2 from '../asset/vr/wireframe2.png';
+
+import designsystem1 from '../asset/vr/designsystem/1.png';
+import designsystem2 from '../asset/vr/designsystem/2.png';
+import designsystem3 from '../asset/vr/designsystem/3.png';
+import designsystem4 from '../asset/vr/designsystem/4.png';
+import designsystem5 from '../asset/vr/designsystem/5.png';
+import designsystem6 from '../asset/vr/designsystem/6.png';
+import designsystem7 from '../asset/vr/designsystem/7.png';
+import designsystem8 from '../asset/vr/designsystem/8.png';
+import designsystem9 from '../asset/vr/designsystem/9.png';
+
+import userquestionaire1 from '../asset/vr/userquestionaire1/1.png'
+import userquestionaire2 from '../asset/vr/userquestionaire1/2.png'
+import userquestionaire3 from '../asset/vr/userquestionaire1/3.png'
+import userquestionaire4 from '../asset/vr/userquestionaire1/4.png'
+import userquestionaire5 from '../asset/vr/userquestionaire1/5.png'
+import userquestionaire6 from '../asset/vr/userquestionaire1/6.png'
+import userquestionaire7 from '../asset/vr/userquestionaire1/7.png'
+import userquestionaire8 from '../asset/vr/userquestionaire1/8.png'
+
+import userquestionaire2_1 from '../asset/vr/userquestionaire2/1.png'
+import userquestionaire2_2 from '../asset/vr/userquestionaire2/2.png'
+import userquestionaire2_3 from '../asset/vr/userquestionaire2/3.png'
+import userquestionaire2_4 from '../asset/vr/userquestionaire2/4.png'
+import userquestionaire2_5 from '../asset/vr/userquestionaire2/5.png'
+import userquestionaire2_6 from '../asset/vr/userquestionaire2/6.png'
+import userquestionaire2_7 from '../asset/vr/userquestionaire2/7.png'
+import userquestionaire2_8 from '../asset/vr/userquestionaire2/8.png'
+import userquestionaire2_9 from '../asset/vr/userquestionaire2/9.png'
+import userquestionaire2_10 from '../asset/vr/userquestionaire2/10.png'
+import userquestionaire2_11 from '../asset/vr/userquestionaire2/11.png'
+import userquestionaire2_12 from '../asset/vr/userquestionaire2/12.png'
+
+import userreport1 from '../asset/vr/userreport1/1.jpeg'
+import userreport2 from '../asset/vr/userreport1/2.jpeg'
+import userreport3 from '../asset/vr/userreport1/3.jpeg'
+import userreport4 from '../asset/vr/userreport1/4.jpeg'
+import userreport5 from '../asset/vr/userreport1/5.jpeg'
+import userreport6 from '../asset/vr/userreport1/6.jpeg'
+import userreport7 from '../asset/vr/userreport1/7.jpeg'
+import userreport8 from '../asset/vr/userreport1/8.jpeg'
+import userreport9 from '../asset/vr/userreport1/9.jpeg'
+import userreport10 from '../asset/vr/userreport1/10.jpeg'
+import userreport11 from '../asset/vr/userreport1/11.jpeg'
+import userreport12 from '../asset/vr/userreport1/12.jpeg'
+import userreport13 from '../asset/vr/userreport1/13.jpeg'
+import userreport14 from '../asset/vr/userreport1/14.jpeg'
+import userreport15 from '../asset/vr/userreport1/15.jpeg'
+import userreport16 from '../asset/vr/userreport1/16.jpeg'
+import userreport17 from '../asset/vr/userreport1/17.jpeg'
+import userreport18 from '../asset/vr/userreport1/18.jpeg'
+import userreport19 from '../asset/vr/userreport1/19.jpeg'
+import userreport20 from '../asset/vr/userreport1/20.jpeg'
+import userreport21 from '../asset/vr/userreport1/21.jpeg'
+
+import userreport2_1 from '../asset/vr/userreport2/1.jpeg'
+import userreport2_2 from '../asset/vr/userreport2/2.jpeg'
+import userreport2_3 from '../asset/vr/userreport2/3.jpeg'
+import userreport2_4 from '../asset/vr/userreport2/4.jpeg'
+import userreport2_5 from '../asset/vr/userreport2/5.jpeg'
+import userreport2_6 from '../asset/vr/userreport2/6.jpeg'
+import userreport2_7 from '../asset/vr/userreport2/7.jpeg'
+import userreport2_8 from '../asset/vr/userreport2/8.jpeg'
+import userreport2_9 from '../asset/vr/userreport2/9.jpeg'
+import userreport2_10 from '../asset/vr/userreport2/10.jpeg'
+
+import { CCarousel, CCarouselItem, CImage, CCarouselCaption } from '@coreui/react'
 
 const Vr = () => {
   // page content
@@ -547,8 +627,452 @@ It has a practice scenario to orient police recruits to the parameters of moveme
         </Col>
       </Row>
 
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+          <Image src={nonlinear} style={{minWidth: "300px", width: "50%"}}/>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+      <CCarousel controls dark indicators>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign1} alt="slide 1" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign2} alt="slide 2" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign3} alt="slide 3" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign4} alt="slide 4" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign5} alt="slide 5" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign6} alt="slide 6" />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={plotdesign7} alt="slide 7" />
+        </CCarouselItem>
+      </CCarousel>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+          <Image src={plotdesign} style={{minWidth: "300px", width: "50%"}}/>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+            User Flow
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={userflow1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft: "25%", maxHeight: "400px"}} className="d-block w-50" src={userflow2} alt="slide 2" />
+            </CCarouselItem>
+          </CCarousel>
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+            Wireframe
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft: "25%", maxHeight: "600px"}} className="d-block w-50" src={wireframe1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft: "25%", maxHeight: "600px"}} className="d-block w-50" src={wireframe2} alt="slide 2" />
+            </CCarouselItem>
+          </CCarousel>
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+            Design System
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}}className="d-block w-50" src={designsystem1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={designsystem2} alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={designsystem3} alt="slide 3" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={designsystem4} alt="slide 4" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}}className="d-block w-50" src={designsystem5} alt="slide 5" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={designsystem6} alt="slide 6" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{maxHeight: "600px"}} className="d-block w-100" src={designsystem7} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{maxHeight: "600px"}} className="d-block w-100" src={designsystem8} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{maxHeight: "600px"}} className="d-block w-100" src={designsystem9} alt="slide 7" />
+            </CCarouselItem>
+          </CCarousel>
+        </Col>
+      </Row>
 
 
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+            Measures We Took to Ensure a Smooth User Experience
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <text>
+          <ul>
+            <li>
+              Giving users the freedom to roam the office environment autonomously.
+            </li>
+            <br/>
+            <li>
+              Allowing for users to select between left- and right-hand settings. The preferred hand setting can ensure that we are meeting accessibility for the small number of left-handed users.
+            </li>
+            <br/>
+            <li>
+            Designing a practice arena that properly introduces the core mechanics – short- and long-distance locomotion; aiming, shooting, and reloading; and speech recognition – of the simulation. Both novice and experienced VR users are then compelled to engage with the simulation using the same “rules of engagement.”
+            </li>
+            <br/>
+            <li>
+              We minimized the user interface to move away from any gamification in the office scenario. There are no marks on the map, no text bubble pop-ups, and no prompts telling officers what to do. In alignment with JIBC police academy SMEs, we have designed what we hope is a thoroughly immersive experience.
+            </li>
+          </ul>
+          </text>
+
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+          User Test 1
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <text>
+          This testing session was conducted at the midway point of the project timeline with participants from CDM, with a background in shooting, as well as JIBC.
+          <br/><br/>
+          The first user test was designed to test whether the mechanic we designed was effective, whether users could complete important interactions, and whether our design and the user's experience with the VR made sense. If there are parts of the VR experience that users do not understand or have difficulty operating, it will be improved in the next step
+          <br/><br/>
+          It aims to confirm that the current unity development features and interactions are easy to use for the user. The onboarding, interaction, and visual design are easy to understand and operate.
+          <br/><br/>
+          With those in mind, I designed the user test 1 questionnaire, we received feedback from our client, JIBC Police, and from CDM participants who had experience with shooting.
+          </text>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2} alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire3} alt="slide 3" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire4} alt="slide 4" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire5} alt="slide 5" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire6} alt="slide 6" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire7} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire8} alt="slide 7" />
+            </CCarouselItem>
+          </CCarousel>
+
+          <br/>
+          <br/>
+
+          <text>
+            After the user test1 and ask users to fill out the questionnaire, we conducted some in-depth interviews with the users and summarized all the answers to form the user test 1 report:
+          </text>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userreport1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2} alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport3} alt="slide 3" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport4} alt="slide 4" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport5} alt="slide 5" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport6} alt="slide 6" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport7} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport8} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport9} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport9} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport10} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport11} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport12} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport13} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport14} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport15} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport16} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport17} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport18} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport19} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport20} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport21} alt="slide 7" />
+            </CCarouselItem>
+          </CCarousel>
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+          User Test 2
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <text>
+          Before the end of the semester, we conducted our second user test, where we updated and iterated based on the previous user test. In order to more closely match the reality of IRD - where the police will talk to and get answers from victims in the situation - we added the minimal viable product of a speech recognition system.
+          <br/><br/>
+          This time we no longer had CDM participants, but only our target users: police recruits, and police instructors. So I designed more user-targeted questionnaires for police recruits and instructors to investigate how our product can do better as a learning tool.
+          </text>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_2} alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_3} alt="slide 3" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_4} alt="slide 4" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_5} alt="slide 5" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_6} alt="slide 6" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_7} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_8} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_9} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_10} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_11} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userquestionaire2_12} alt="slide 7" />
+            </CCarouselItem>
+          </CCarousel>
+
+          <br/>
+          <br/>
+
+          <text>
+            After getting the results of the questionnaire, we conducted some in-depth interviews with the targeted users. The in-depth interviews were the supplement to user test 2, which helped us to dig some deeper ideas of the users, more specific details of their suggestions, and some very detailed answers that were not filled in the questionnaire. All the answers are summarized to form the user test 2 report.
+          </text>
+
+          <br/>
+          <br/>
+
+          <CCarousel controls dark indicators>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxWidth: "400px"}} className="d-block w-50" src={userreport2_1} alt="slide 1" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_2} alt="slide 2" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_3} alt="slide 3" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_4} alt="slide 4" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_5} alt="slide 5" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_6} alt="slide 6" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_7} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_9} alt="slide 7" />
+            </CCarouselItem>
+            <CCarouselItem>
+              <CImage style={{marginLeft:"25%", maxHeight: "400px"}} className="d-block w-50" src={userreport2_10} alt="slide 7" />
+            </CCarouselItem>
+          </CCarousel>
+        </Col>
+      </Row>
+
+      <Row style={{marginTop: "50px" }} className="justify-content-md-center">
+        <Col style={{marginTop: "50px" }}>
+          <contentSubtitle>
+            Future Plan
+          </contentSubtitle>
+
+          <br/>
+          <br/>
+
+          <text>
+          Phrase two: published useful final product
+          <br/>
+          <br/>
+
+          For the next term, the work will primarily evolve the digital artifact from its current state as a proof of concept prototype to being a product ready for use by the JIBC’s police academy.
+          <br/>
+          <br/>
+          This work will be conducted between May 9 and August 8, which comes up to 12 weeks.
+          <br/>
+          <br/>
+          This work will involve refining the following parts of the digital artifact:
+          <br/>
+          <ul>
+            <li>
+              Locomotion mechanic, with an emphasis on minimizing dizziness
+            </li>
+            <li>
+            The audio fidelity of the environment
+            </li>
+            <li>
+            Animations of the NPCs
+            </li>
+            <li>
+            Re-recording the instructions and NPC voice-overs
+
+            </li>
+            <li>
+              True speech recognition
+            </li>
+            <li>
+            Hand-tracking for interaction with doors and voice-over radio
+            </li>
+          </ul>
+
+          <br/>
+          <br/>
+
+          Beyond polish, we would like to explore incorporating the following features, all of which would have to be greenlit in consultation with police academy SMEs:
+
+          <br/>
+          <br/>
+
+          <ul>
+            <li>
+              Review video for police instructors
+            </li>
+            <li>
+            An “end of scenario” dashboard, potentially with one to three key metrics
+            </li>
+            <li>
+            Adding a different scenario
+            </li>
+            <li>
+            Networking to allow for more than one user to be in the scenario
+            </li>
+          </ul>
+          </text>
+        </Col>
+      </Row>
 
       <br/>
       <br/>
