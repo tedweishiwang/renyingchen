@@ -4,9 +4,9 @@ import webdesign from '../asset/webdesign.png';
 import poster from '../asset/poster.png';
 import vr from '../asset/vr.png';
 
-const Work = () => {
+const Portfolio = () => {
   // page content
-  const pageTitle = 'Work'
+  const pageTitle = 'Portfolio'
   const pageDescription = 'welcome to react bootstrap template'
 
   return (
@@ -64,4 +64,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Portfolio
